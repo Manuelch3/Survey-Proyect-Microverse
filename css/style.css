@@ -1,5 +1,5 @@
 body {
-    
+    text-align: center; ;
     margin: 0px;
     width: 100%;
     height: 100%;
@@ -7,7 +7,8 @@ body {
     font-size: medium;
     font-family: 'Poppins',sans-serif;
     line-height: 1.5cm;
-    background-color: blueviolet;
+    background-color: #000;
+;
 }
 .header {
   display:block;
@@ -30,4 +31,96 @@ body {
     width: 90%;
     background: rgb(23, 165, 47);
     border-radius: 3px;
+
 }
+.principalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    padding: 45px 48px;
+    background-color: #19191F;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.favoriteFuture{
+    margin-top: 10px;
+}
+.submit-button{
+    background-color: #194284;
+    width: 600px;
+    height: 40px;
+    border: 2px;
+    border-radius: 15px;
+    padding: 4px;
+    margin-top: 20px;
+}
+#title{
+    color: #508ae7;
+}
+#name {
+    background-color: white;
+    width: 600px;
+    height: 40px ;
+    border: 2px;
+    border-radius: 15px;
+    padding: 4px;
+}
+#email{
+    background-color: white;
+    width: 600px;
+    height: 40px ;
+    border: 2px;
+    border-radius: 15px;
+    padding: 4px;
+}
+#number{
+    background-color: white;
+    width: 600px;
+    height: 40px ;
+    border: 2px;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+#dropdown{
+    background-color: white;
+    width: 600px;
+    height: 40px ;
+    border: 2px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+    
+}
+#sendInfo{
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+@media (max-width: 600px)  {
+    #name {
+        background-color: white;
+        width: 200px;
+        height: 40px ;
+        border: 2px;
+        border-radius: 15px;
+        padding: 4px;
+    }
+    
+   
+  }
+  
+    
+  
