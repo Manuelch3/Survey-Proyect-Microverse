@@ -63,6 +63,8 @@ body {
     border-radius: 15px;
     padding: 4px;
     margin-top: 20px;
+    border-style: outset;
+    border-color: #06275ebd;
 }
 #title{
     color: #508ae7;
@@ -103,7 +105,7 @@ body {
     
 }
 #sendInfo{
-    width: 600px;
+    width: 580px;
     height: 200px;
     border-radius: 15px;
 }
