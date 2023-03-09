@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins',sans-serif;
     line-height: 1.5cm;
     background-color: #000;
-;
+
 }
 .header {
   display:block;
@@ -45,8 +45,7 @@ body {
 }
 .container{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    
 }
 .inputContainer{
     display: flex;
@@ -73,7 +72,7 @@ body {
 }
 #name {
     background-color: white;
-    width: 600px;
+    width: 200px;
     height: 40px ;
     border: 2px;
     border-radius: 15px;
@@ -81,7 +80,7 @@ body {
 }
 #email{
     background-color: white;
-    width: 600px;
+    width: 200px;
     height: 40px ;
     border: 2px;
     border-radius: 15px;
@@ -89,7 +88,7 @@ body {
 }
 #number{
     background-color: white;
-    width: 600px;
+    width: 200px;
     height: 40px ;
     border: 2px;
     border-radius: 15px;
@@ -98,7 +97,7 @@ body {
 
 #dropdown{
     background-color: white;
-    width: 600px;
+    width: 200px;
     height: 40px ;
     border: 2px;
     border-radius: 15px;
@@ -112,18 +111,56 @@ body {
     border-radius: 15px;
 }
 
-@media (max-width: 600px)  {
+@media (min-width: 768px){
+    #title{
+        color: red;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     #name {
         background-color: white;
-        width: 200px;
+        width: 600px;
+        height: 40px ;
+        border: 2px;
+        border-radius: 15px;
+        padding: 4px;
+    }
+    #email{
+        background-color: white;
+        width: 600px;
+        height: 40px ;
+        border: 2px;
+        border-radius: 15px;
+        padding: 4px;
+    }
+    #number{
+        background-color: white;
+        width: 600px;
         height: 40px ;
         border: 2px;
         border-radius: 15px;
         padding: 4px;
     }
     
-   
-  }
-  
+    #dropdown{
+        background-color: white;
+        width: 600px;
+        height: 40px ;
+        border: 2px;
+        border-radius: 15px;
+        margin-top: 20px;
+        
+        
+    }
+    #sendInfo{
+        width: 600px;
+        height: 200px;
+        border-radius: 15px;
+    }
+}
     
   
