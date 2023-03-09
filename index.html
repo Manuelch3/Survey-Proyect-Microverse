@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <title>Survey Form</title>
@@ -8,8 +9,10 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <header class="header">
+    <h1 class="centertext" id="title"><center>freeCodeCamp Survey Form</center></h1>
+    <p class="descriptiontext" id="description">Thank you for taking the time to help us improve the platform</p>
+  </header>
     <form id="survey-form">
       <label id="name-label">Name</label>
       <input required id="name" name="name" type="text" placeholder="Enter your Name">
@@ -80,7 +83,7 @@
       </label>
       <p>Any comments or suggestions?</p>
       <textarea placeholder="Enter your comment here..."></textarea>
-      <button id="submit">Submit</button>
+      <button class="submit-button" id="submit">Submit</button>
 
     </form>
 

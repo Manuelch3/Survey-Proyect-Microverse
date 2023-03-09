@@ -1,0 +1,33 @@
+body {
+    
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: medium;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.5cm;
+    background-color: blueviolet;
+}
+.header {
+  display:block;
+
+}
+.centertext {
+    display:block;
+    font-size: 2em;
+}
+.descriptiontext {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.submit-button {
+    display: block;
+    width: 90%;
+    background: rgb(23, 165, 47);
+    border-radius: 3px;
+}
