@@ -3,8 +3,6 @@
 
   <head>
     <meta charset="UTF-8" content="width=device-width,initial-scale=1">
-      
-    >
     <title>Survey Form</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -16,18 +14,18 @@
         <h1 class="centertext" id="title"><center>FREECODECAMP SURVEY FORM</center></h1>
         <p class="descriptiontext" id="description">Thank you for taking the time to help us improve the platform</p>
       </header>
-    
-    <form  id="survey-form">
-      <div class="container">
-        <div class="inputContainer">
+
+ 
+    <form class="container">
+      <div class="inputContainer">
           <label id="name-label">Name</label>
           <input required id="name" name="name" type="text" placeholder="Enter your Name">
           <label id="email-label">Email</label>
           <input required id="email" type="email" placeholder="Enter your Email">
           <label id="number-label">Age</label>
           <input required id="number" type="number" placeholder="Age" min="10" max="99">
-      <p>Which option best describes your current role?</p>
-      <select id="dropdown" placeholder="Select Current role">
+         <p>Which option best describes your current role?</p>
+          <select id="dropdown" placeholder="Select Current role">
         <option selected="">Student</option>
         <option selected="">Full time Job</option>
         <option selected="">Full time learner</option>
@@ -90,11 +88,11 @@
         <input type="checkbox" value="Aditional Coursers">Aditional Coursers
       </label>
       <p>Any comments or suggestions?</p>
-    </div>
-      
       <textarea placeholder="Enter your comment here..." id="sendInfo"></textarea>
     
-      <button class="submit-button" id="submit"><strong>Submit</strong></button>
+      <button id="submit-button" id="submit"><strong>Submit</strong></button>
+      
+    </div>
       
     </div>
     </form>
